@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main-page{
+    padding: 2rem 6rem 2rem 6rem;
+    /* border: 2px solid red; */
+    width: 100vw;
+}
+
+.Top{
+    display: flex;
+    font-size: 1rem;
+    gap: 2.5rem;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border: 2px solid #B7C6C6;
+    box-shadow: 10px 5px 5px #C3C6C6;
+    border-radius: 7px;
+    /* margin:1rem; */
+    
+}
+.in-active{
+    border:none;
+    width:100rem ;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   margin: 1.5rem;
+}
+.head{
+    font-weight: bold;
+    color: #818f8f;
+}
+.q{
+    /* border: 2px solid red; */
+    width:100rem ;
+    height: 6rem;
+    display: flex;
+    border-right: 3px solid #B7C6C6;
+    flex-direction: column;
+    justify-content: start;
+   margin: 1.5rem;
+    /* align-items: center; */
+}
+.lists{
+    margin-top: 1rem;
+    max-height: 50rem;
+    /* box-shadow: 10px 5px 5px #C3C6C6; */
+    border: 2px solid #B7C6C6;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.list-top{
+    display: flex;
+    justify-content: space-between;
+
+.search-bar{
+    border: 2px solid #B7C6C6;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.search-icon{
+    height: 2rem;
+    width: 2rem;
+}
+.input1{
+    padding: 1rem;
+    height: 2rem;
+    width: 35rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+}
+.side-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+
+    .btn-add{
+        background: transparent;
+        border-color: green;
+        color: green;
+        height: 3rem;
+        width: 6rem;
+        border-radius: 2rem;
+        cursor: pointer;
+        outline: none;
+    }
+    .print-icon{
+        color: green;
+        height: 2rem;
+        width: 4rem;
+    }
+}
+.list-header{
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    border: 2px solid green;
+    margin-top: 1rem;
+    gap:10rem;
+    .w1{
+        /* align-self: center; */
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+    }
+}
+.table11{
+    margin-top: 2rem;
+}

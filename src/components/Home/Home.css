@@ -1,0 +1,32 @@
+.header{
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    box-shadow: 10px 5px 5px #C3C6C6;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+
+}
+.h-buttons{
+    display: flex;
+    gap:1rem;
+    font-weight: 700;
+}
+.bt1{
+    border-radius: 5rem;
+    width: 5rem;
+    background:none;
+    border-color: green;
+    outline: none;
+
+}
+.bt{
+    border-radius: 5rem;
+    background-color: green;
+    color: white;
+    width: 10rem;
+}
+.span1{
+    text-decoration: underline;
+}

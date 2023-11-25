@@ -1,0 +1,34 @@
+.im1{
+    height: 3rem;
+    width: 3rem;
+}
+.roww{ 
+    /* margin-top: 1rem; */
+    /* background: aliceblue; */
+    /* border: 2px solid red; */
+}
+.special1{
+    min-width: 15rem;
+}
+.special{
+    display: flex;
+    justify-content: space-between;
+    background-color:aliceblue;
+
+    /* border: 1px solid red; */
+    
+}
+.sp{
+    display: flex;
+    gap:1rem;
+    
+}
+.tb{
+    overflow: auto;
+}
+.show-textred{
+    color: red;
+}
+.show-textgreen{
+    color: green;
+}
